@@ -1,0 +1,213 @@
+/*-----Geral-----*/
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+/*-----Cards----*/
+.card {
+  width: 250px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 10px;
+  background-color: #1b384a;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452); 
+  align-items: center;
+}
+
+/*-----Inserção dde icones----*/
+.icon-icon_heart,
+.icon-icon_menu
+{
+  width: 30px;
+  height: 30px; 
+  color: white; 
+}
+
+.icon-icon_arrow{
+  height: 40px; 
+  width: 50px; 
+  color: white;  
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul{
+  margin-top: 10px;
+}
+
+li{
+  display: inline;
+  flex-direction: row;
+  margin: 3px;
+}
+
+/*----Imagem-----*/
+.person {
+  padding: 5px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+  clip-path: circle();
+  border: solid 2px #5B51D8;
+  border-radius: 50%; 
+}
+
+.person:hover {
+  cursor: pointer; 
+}
+
+/*-----Titulo e Paragrafos-----*/
+.name{
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: 'Cutive', serif;
+  word-spacing: 3px;  
+  font-weight: 10;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.596);
+  
+
+}
+.skills{
+  padding-top: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.596); 
+  font-size: 13px;
+  font-family:Arial, Helvetica, sans-serif;  
+  }
+
+.apresentaçao{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.596); 
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*-----Button-----*/
+.button{
+  display: flex;
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 55px;
+  padding: 8px;
+  padding-left: 40px;
+  color: rgb(255, 255, 255);
+  border: none; 
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  background: linear-gradient(150deg, 
+  #405ce6, #5a51d8, #833ab4, 
+  #c13584, #e1306b, #fd1d1d, #f56140,
+  #f77737, #fcb045, #ffdb80);  
+}
+
+.button:hover{
+  background: linear-gradient(150deg, 
+  #405ce67c, #5a51d870, #833ab465, 
+  #c1358486, #e1306b81, #fd1d1d7c, #f561407e,
+  #f7773777, #fcb0458c, #ffdb807e);
+  
+  width: 112px;
+  height: 20px;
+  padding-left: 50px; 
+  transition: 0.2s;
+} /*-----CARD FINALIZADO-----*/
+
+
+/*Click na Imagem*/
+.clickImagem{
+ 
+ padding: 10px;
+ display: flex; 
+ margin: 0 auto;
+ margin-top: 20px;
+ width: 200px;
+ height: 200px;
+ clip-path: circle();
+ border: solid 2px #06571f;
+ border-radius: 50%;
+ 
+ 
+}
+
+.section{
+  align-items: center;
+  z-index: 1;
+  background-color: rgb(0, 0, 0); 
+  position: fixed;
+  width: 100%; 
+  height: 100%; 
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sobreMim{
+  margin: 0 auto;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; 
+ 
+  width: 500px; 
+  text-align: center;
+
+}
+
+.sectionCard{
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.sobreMim{
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  color:#01a061;
+  line-height: 25px;
+}
+
+.contact{
+  display:flex;
+  width: 100px;
+  justify-content: center;
+  color:  #06571f;                      
+  margin: 0 auto;
+  padding: 8px;
+  border: 2px dashed green;
+  border-radius: 8px;
+}
+
+.contact:hover {
+  font-weight:bolder;
+  color: #01a061;
+  transition: 0.3s;
+}
+
+.voltar{
+  display:flex;
+  width: 100px;
+  justify-content: flex-end;
+  color:  #06571f;                      
+  margin-top: 2px;
+  padding-left: 8px;
+}
+
+.voltar:hover{
+  font-weight:bolder;
+  color: #01a061;
+  transition: 0.3s;
+}
